@@ -1,0 +1,5 @@
+Small personal project about a crypto currency. 
+Can create blocks, add to the blockchain, mine blocks and generate addresses. 
+Addresses are made with RSA, hash of blocks are made with SHA-256.
+Still lacking blockchain distribution across clients (only local)
+
