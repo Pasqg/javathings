@@ -3,3 +3,4 @@ Can create blocks, add to the blockchain, mine blocks and generate addresses.
 Addresses are made with RSA, hash of blocks are made with SHA-256.
 Still lacking blockchain distribution across clients (only local)
 
+src/coin/Crypto.java has the entry point with mining code
