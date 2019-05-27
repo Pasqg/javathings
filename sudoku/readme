@@ -1,0 +1,7 @@
+Small project that extracts and processes sudokus from photos, reads digit with a neural network and solves it.
+The solver is basically an optimized search, nothing fancy. 
+The detector identifies the grid of the sudoku, transforms it eliminating rotations, scaling and perspective distorsion.
+The neural network identifies digits and is very simple (three layer convolutional network).
+
+entry point for photo detection: src/finder/Detector.java
+entry point for solver: src/sudoku/ui.java
